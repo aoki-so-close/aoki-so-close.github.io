@@ -1,0 +1,25 @@
+.top_image {
+  background-image: url("../image/show_window.webp");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  background-position: 10% 50%;
+}
+
+.red {
+  background-color: #e9546b !important;
+}
+
+.red-font {
+  color: #e9546b !important;
+  margin: 2rem;
+}
+
+#sogyo {
+  color: #e9546b !important;
+  margin: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.columns {
+  margin-bottom: 3rem;
+}
