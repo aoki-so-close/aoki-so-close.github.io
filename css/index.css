@@ -1,5 +1,6 @@
 .top_image {
-  background: url("../image/artificial-photography-vB5qtt8X4NA-unsplash.jpg");
+  background: url("../image/artificial-photography-vB5qtt8X4NA-unsplash.jpg")
+    no-repeat;
   background-blend-mode: lighten;
   background-position: 50% 0%;
 }
