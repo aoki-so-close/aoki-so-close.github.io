@@ -70,6 +70,10 @@
   display: none !important;
 }
 
+.level-item-title {
+  margin-top: 0.7em;
+}
+
 @media screen and (max-width: 39.9375em) {
   .since {
     display: block;
