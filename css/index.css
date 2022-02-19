@@ -8,6 +8,9 @@
   background-blend-mode: lighten;
   background-position: 10% 30%;
 }
+.logo {
+  font-size: 3.6rem !important;
+}
 
 .hero-header {
   background: linear-gradient(
@@ -37,5 +40,14 @@
 }
 
 .photo-right {
-  font-size: 8px;
+  font-size: 0.8rem;
+}
+
+.gmap-iframe {
+  height: 400px;
+}
+
+#access,
+#hours {
+  padding: 5rem 0;
 }
