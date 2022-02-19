@@ -23,6 +23,10 @@
   );
 }
 
+.hero-body {
+  width: 60%;
+}
+
 .red {
   background-color: #e9546b !important;
 }
@@ -30,6 +34,10 @@
 .red-font {
   color: #e9546b !important;
   margin: 2rem;
+}
+
+.since {
+  display: inline-block;
 }
 
 #sogyo {
@@ -57,4 +65,13 @@
 
 .top-image-sp {
   display: none !important;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .since {
+    display: block;
+  }
+  .hero-body {
+    width: 100%;
+  }
 }
