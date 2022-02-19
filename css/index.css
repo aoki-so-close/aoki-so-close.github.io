@@ -1,22 +1,18 @@
-@media screen and (max-width: 39.9375em) {
-  .hero-body {
-    background-color: rgba(255, 255, 255, 0.8) !important;
-  }
-}
-
 .top_image {
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("../image/artificial-photography-vB5qtt8X4NA-unsplash.jpg");
+  background: url("../image/artificial-photography-vB5qtt8X4NA-unsplash.jpg");
   background-blend-mode: lighten;
   background-position: 50% 0%;
 }
 
 .logo {
   font-size: 3.6rem !important;
+}
+
+.hero-text-block {
+  background: white;
+  width: 60%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .hero-header {
@@ -57,4 +53,8 @@
 #access,
 #hours {
   padding: 3rem 0;
+}
+
+.top-image-sp {
+  display: none !important;
 }
